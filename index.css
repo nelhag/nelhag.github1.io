@@ -18,15 +18,17 @@ ul{list-style: none;
     padding :1rem 2rem;
 
 }
-.main_title{
-    color:;
-}
+/*.main_title{
+  
+}*/
 .nav_list{
     display:flex;
 }
 .nav_list-item {
     margin-right:.5 rem;
 }
+.hero-image
 {
-    
+background-image: url(C:\Users\WeCanCodeIT\wcci\code\my-portfilio\nelhag.github.io\images\Nazik.png);
+height: 50vh;
 }
