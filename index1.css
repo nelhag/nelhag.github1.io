@@ -1,0 +1,119 @@
+
+*{
+    box-sizing :border-box;
+    margin:0;
+    padding:0;
+    }
+    html{
+        font:20px/1;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    }
+    ul.nav__list{
+    float:right;
+    
+    
+    }
+     
+    .nav__list-item{
+        
+        list-style-type: none;
+        font-size: 1.6em;
+        list-style: none;
+        display:inline-block;
+        font-weight:bolder;
+        
+    }
+    
+    .nav__list-item a{
+    
+       
+        padding: 7px;
+        color:black;
+        margin-right: 0.5rem;
+        text-decoration: none;
+    
+    }
+ 
+    a:hover{
+        color:rgb(54, 1, 1);
+        
+    }
+    .main-header{
+        display:flex;
+        justify-content: space-between;
+        flex-direction:row;
+        background-color: rgb(156, 154, 154);
+        height:10vh;
+        
+    }
+    .main-header__title{
+       text-align-last: center;
+       font-size: 2.5em;
+    }
+    /* body{
+        background-color: rgb(185, 183, 183);
+        /* background-image: url(images/portfolio1.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+
+    } */
+    .hero-image{
+      /* background-image: url(images/portfolio1.jpg); */
+      
+        /* margin-left: 500px; */
+        display:flex;
+        flex-direction:column;
+        /* margin-top:5px; */
+        align-content: center;
+        /* border-radius: 30%; */
+        width:60%;
+        height: 50vh;
+        text-align: center;
+        
+        margin:0 auto;
+           }
+    .hero-image{
+        margin-bottom:30px;
+       
+    }
+    .hero-image__title a{
+       
+       text-align:center;
+    
+
+    }
+    .hero-image_photo{
+    
+        background-repeat: no-repeat;
+        border:2px  black solid;
+    }
+    .my-portofolio{
+    margin-left:700px;
+      /* text-align: center; */
+      padding:8px;
+      line-height:2em;
+    }
+    .my-portofolio_title{
+        line-height:2.8em;
+        font-weight: bolder;
+
+ 
+    }
+    .skill_list_items{
+        list-style: none;
+    }
+    .other-skills-list{
+        list-style: none;
+    }
+    .footer_1{
+        background-color:rgb(156, 154, 154);
+        /* text-align: center; */
+        height:8vh;
+        
+      
+    }
+    .footer-title{
+        margin-left:700px;
+       font-weight:bolder;
+    
+    }
