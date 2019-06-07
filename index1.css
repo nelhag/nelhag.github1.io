@@ -49,6 +49,7 @@
     .main-header__title{
        text-align-last: center;
        font-size: 2.5em;
+       text-align: end;
     }
     /* body{
         background-color: rgb(185, 183, 183);
@@ -74,6 +75,7 @@
            }
     .hero-image{
         margin-bottom:30px;
+       
        
     }
     .hero-image__title a{
