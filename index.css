@@ -10,6 +10,17 @@
         font:20px/1;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     }
+    body {
+        padding: 1rem;
+    }
+    
+    p, li {
+        line-height: 1.618;
+    }
+    
+    ul {
+        list-style: none;
+    }
     ul.nav__list{
     float:right;
     
@@ -41,6 +52,7 @@
         
     }
     .main-header{
+        
         display:flex;
         justify-content: space-between;
         flex-direction:row;
@@ -60,29 +72,28 @@
         background-size: cover; 
 
     } */
-    .hero-image{
-      /* background-image: url(images/portfolio1.jpg); */
-      
-        /* margin-left: 500px; */
-        display:flex;
-        flex-direction:column;
-        /* margin-top:5px; */
-        align-content: center;
-        /* border-radius: 30%; */
-        width:60%;
-        height: 50vh;
+    div.hero-image{
+      /*background-image: url(images/portfolio1.jpg); 
+      display: flex;
+    flex-direction: column;
+             width:60%;
+        height: 50vh;            
+        margin:0 auto;*/
+        float: right;
+        width: 30%;
+       
+        border: black solid;
+        margin: 0.5em;
+        padding: 0.5em;
         text-align: center;
-        
-        margin:0 auto;
+         text-indent: 0;
+
            }
-    .hero-image{
-        margin-bottom:30px;
+   
+    .hero-image__title {
        
-       
-    }
-    .hero-image__title a{
-       
-       text-align:center;
+        display: block;
+        margin-left: 600px;
     
 
     }
@@ -90,10 +101,11 @@
     
         background-repeat: no-repeat;
         border:2px  black solid;
-       
+         margin-bottom: 3rem;
+         width: 50%;
     }
     .my-portofolio{
-    margin-left:700px;
+    margin-left:600px;
       /* text-align: center; */
       padding:8px;
       line-height:2em;
