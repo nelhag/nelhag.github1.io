@@ -21,6 +21,8 @@
     ul {
         list-style: none;
     }
+
+      }
     ul.nav__list{
     float:right;
     
@@ -66,14 +68,7 @@
        font-size: 2.5em;
        text-align: end;
     }
-    /* body{
-        background-color: rgb(185, 183, 183);
-        /* background-image: url(images/portfolio1.jpg); 
-        background-repeat: no-repeat;
-        background-size: cover; 
-
-    } */
-    .hero_container{
+     .hero_container{
        display:flex;
        flex-direction: column;
         /* width: 30%; */
@@ -93,9 +88,9 @@
      
 
     }
+    @media (max-width: 800px){
     .hero-image_photo{
-    
-        background-repeat: no-repeat;
+          background-repeat: no-repeat;
         border:2px  black solid;
          margin-bottom: 3rem;
          width: 50%;
@@ -103,6 +98,7 @@
          
          margin: 0 auto;
     }
+}
     div.my-portofolio{
     margin-left:600px;
     display: flex;
@@ -156,20 +152,21 @@
   line-height: 2rem;
   
     }
-    .contact-image{
-        width: 100%;
-  
+    .contact-image2,.contact-image3,.contact-image4{
+  width: 100%;
   min-width: 0;
   padding-left: 1%; 
   padding-right: 1%;
-  
-    }
+      }
+
     .contact-image1{
         float:left;
         padding-right: 20px;
         padding-right: 10px;
         
     }
+
+    
     .container{
         padding-top: 30px;
     }
