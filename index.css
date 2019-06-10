@@ -71,7 +71,7 @@
      .hero_container{
        display:flex;
        flex-direction: column;
-       border:1px black solid;
+       /* border:1px black solid; */
         justify-content: center;   
          width: 100%;
          /* background-image: url("./images/graywood.jpg"); */
