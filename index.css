@@ -73,14 +73,15 @@
        flex-direction: column;
        border:1px black solid;
         justify-content: center;   
-        height:50vh;
-        /* background-color:	#C8C8CA; */
+         width: 30%;
+         background-image: url("./images/graywood.jpg");
+        /* background-color:	#C8C8CA; 
         /* background-color: rgba(141, 124, 101, 0.466); */
        
            }
     .hero-image_section{
-         margin-left: 200px; 
-         float:left;
+         margin-left: 400px; 
+         
         
         
     }
@@ -97,12 +98,10 @@
           background-repeat: no-repeat;
         border:1px black solid;
          margin-bottom: 3rem;
-         width: 20%;
-         height:20vh;
-         border-radius:20%; 
-            
-          margin: 0 auto; 
-         /* display: block; */
+         width: 50%;
+        border-radius:20%; 
+         margin: 0 auto; 
+         display: block;
     }
 
     div.my-portofolio{
