@@ -22,7 +22,7 @@
         list-style: none;
     }
 
-      }
+      
     ul.nav__list{
     float:right;
     
@@ -71,15 +71,16 @@
      .hero_container{
        display:flex;
        flex-direction: column;
-       /* background-image: url("./images//graywood.jpg");   */
-        border:1px black solid;
+       border:1px black solid;
         justify-content: center;   
-        background-color:	#C8C8CA;
+        height:50vh;
+        /* background-color:	#C8C8CA; */
         /* background-color: rgba(141, 124, 101, 0.466); */
        
            }
     .hero-image_section{
-        margin-left: 400px;
+         margin-left: 200px; 
+         float:left;
         
         
     }
@@ -94,14 +95,16 @@
     
     .hero-image_photo{
           background-repeat: no-repeat;
-        border:2px black solid;
+        border:1px black solid;
          margin-bottom: 3rem;
-         width: 100%;
-         border-radius:50%; 
-         
-         margin: 0 auto;
-    
-}
+         width: 20%;
+         height:20vh;
+         border-radius:20%; 
+            
+          margin: 0 auto; 
+         /* display: block; */
+    }
+
     div.my-portofolio{
     margin-left:600px;
     display: flex;
